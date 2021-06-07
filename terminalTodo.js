@@ -9,9 +9,11 @@ const todoList = [];
 
 while (index !== -1) {
   if (index === 0) {
-    todoList.push(add());
+    todoList.push(readlineSync.question("What do you to do? "));
   } else if (index === 1) {
-    list(todoList);
+    console.log("========================");
+    todoList.forEach((item) => console.log(item));
+    console.log("========================");
   } else if (index === 2) {
     remove();
   }
