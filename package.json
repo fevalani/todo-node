@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fevalani/todo-node#readme",
   "dependencies": {
+    "chalk": "^4.1.1",
     "readline-sync": "^1.4.10"
   }
 }
